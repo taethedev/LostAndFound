@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--VIKRAM CODE STARTS HERE-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image"
+        android:src="@color/colorAccent"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_toRightOf="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEM_NAME"
+        style="@style/TextAppearance.AppCompat.Title"
+        />
+    <TextView
+        android:id="@+id/location"
+        android:layout_toRightOf="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:text="Location item found"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        />
+    <TextView
+        android:id="@+id/des"
+        android:layout_toRightOf="@id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:text="Description for the lost item"
+        android:maxLines="2"
+        android:maxLength="60"
+        />
+</RelativeLayout>
+
+<!--VIKRAM CODE ENDS HERE-->

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Lost and Found</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_time_selected_string">No Time Selected</string>
+    <string name="no_date_selected_string">No Date Selected</string>
+    <string name="title_activity_enter_lost_item">EnterLostItemActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+=======
+    <string name="lost_found"><![CDATA[Lost & Found]]></string>
+    <string name="password_reset">Password Reset</string>
+    <string name="please_enter_your_email">Please Enter Your Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="login_reset_password">RESET PASSWORD</string>
+    <string name="login">login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="email2">Email:</string>
+    <string name="create">create</string>
+    <string name="create_account">Create Account</string>
+    <string name="required_umd_edu_or_terpmail_umd_edu">Required: @umd.edu or @terpmail.umd.edu</string>
+    <string name="password2">Password:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="phone">Phone #:</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="tags">Tags</string>
+    <string name="location">Location</string>
+    >>>>>>> 73f6deea7b5dd6e916a0736c2760cd1bcb0985f5
+
+
+</resources>
